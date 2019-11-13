@@ -1,0 +1,203 @@
+body {
+ background: linear-gradient(
+    to bottom,
+    rgba(5,5,5, 0.3),
+    rgba(3,4,3, 0.99)
+  ), url('https://uploads.guim.co.uk/2019/11/06/cyberpunk-casino_copy_3.jpg');
+
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+    font-family: 'Orbitron', cursive;
+    text-align: center;
+    text-transform: uppercase;
+   
+        
+}
+
+
+
+.name {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    transform: translateY(77%);
+    
+}
+
+
+.center {
+  position: relative;
+  transform: translateY(10%);
+}
+
+
+#gametable {
+    
+    width: 60%;
+    height: 590px;
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+    background: rgba(130, 120, 260, 0.5);
+    
+    
+    }
+
+.cardtable {
+    
+    border: 0px solid black;
+    padding: 10px 0px 12px 10px;
+    
+}
+
+
+
+.score{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+}
+
+
+.dealercards{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+    
+}
+
+.cards{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+
+}
+
+
+
+.scorecard {
+   
+    padding: 30px 0px 30px 10px;
+    text-align: center;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: linear-gradient(
+    to bottom,
+    rgba(5,5,5, 0.2),
+    rgba(3,4,3, 0.66)
+  )
+    
+    
+}
+
+.runningtotal {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    color: white;
+    padding: 10px 10px;
+    background-color: rgba(233, 32, 102, 0.2);
+    position: relative;
+    //transform: translateY(190%);
+}
+
+
+
+.card {
+   background-color: rgba(255,255,255, 0.5);
+    width: 75px;
+    height: 95px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0px 8px 0px 5px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 3px 3px 1px black; 
+    line-height: 95px;
+}
+
+
+
+#stand {
+    display: none;
+}
+
+#hit {
+    display: none;
+    
+}
+
+.hide{
+    
+    display: none;
+}
+
+.buttons {
+    margin: auto;
+    padding: 65px 0px 0px 0px;
+    width: 100%;
+
+}
+
+
+
+button {
+  background-color: rgba(233, 32, 102, 0.4)
+; 
+  border: none;
+  color: white;
+  margin-top: 1%;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Turret Road', cursive;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  outline: none;
+    
+   
+}
+
+button:hover {
+      background-color: rgba(233, 32, 102, 0.6);
+
+      border-bottom: 3px solid rgba(233, 32, 102, 0.8);
+    
+}
+
+
+.glow {
+  
+  color: #fff;
+  
+  -webkit-animation: glow 0.9s ease-in-out infinite alternate;
+  -moz-animation: glow 0.9s ease-in-out infinite alternate;
+  animation: glow 0.9s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #E92066, 0 0 40px #E92066, 0 0 50px #E92066, 0 0 60px #E92066, 0 0 70px #E92066;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff3665, 0 0 40px #ff3665, 0 0 50px #ff3665, 0 0 60px #ff3665, 0 0 70px #ff3665, 0 0 80px #ff3665;
+  }
+}

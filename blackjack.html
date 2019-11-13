@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      BLACKJACK 2052</title>
+      
+      <link rel="stylesheet" type="text/css" href="blackjack.css">
+         
+      <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Share+Tech+Mono|Turret+Road&display=block" rel="stylesheet">
+
+  </head>
+  <body>
+      
+      <h1 class="glow name">BLACKJACK 2052</h1>
+      
+      <div id="gametable" class="center">
+          <div class="runningtotal">
+      
+      <div class="button score"> Dealer's wins this session: <span id="compscore">0</span></div>
+      </div>
+          
+      <div class="cardtable"> 
+          <div class="dealercards" id='#dealercards'>
+              
+          <div id="dealerCard1" class="card hide"></div>
+          <div id="dealerCard2" class="card hide"></div>
+          </div>
+          </div>
+          
+        <div class="cardtable">
+          <div class="cards" id='#playercards'>
+             
+          <div id="card1" class="card hide"></div>
+          <div id="card2" class="card hide"></div>
+         
+            </div>
+            
+          </div>
+          <div class="runningtotal">
+      <div class="button score">
+      Your wins this session: <span id="yourscore">0</span></div>
+     
+      </div>
+          
+          <div class="scorecard"> 
+              <div class="totalscore score">Your total is: <span class="playerscore"></span> </div>
+              <div class="dealertotalscore score">The dealer's total is: <span class="dealerscore"></span></div>
+          
+          </div>
+          <div id="gamebuttons"> 
+                <button id="stand">Stand</button>
+                <button id="hit">Hit</button>   
+          </div>
+          <div><button id="newgame">New hand</button> </div>
+      
+     
+          
+          </div>
+  
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+      
+    <script src="blackjack.js" type="text/javascript"></script>
+
+      
+  </body>
+</html>
