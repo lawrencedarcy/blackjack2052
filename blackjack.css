@@ -1,6 +1,7 @@
 html {
     
     font-size: 62.5%;
+    height: 100%;
 }
 
 body {
@@ -23,14 +24,14 @@ body {
     font-family: 'Orbitron', cursive;
     text-align: center;
     text-transform: uppercase;
-   
+   font-size: 1.5rem;
         
 }
 
 
 
 .name {
-    font-size: 2.5rem;
+    font-size: 3.6rem;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -51,9 +52,9 @@ body {
 #gametable {
     
     width: 60%;
-    height: 590px;
+    height: 59rem;
     margin: auto;
-    padding: 10px 20px 20px 20px;
+    padding: 1rem 2rem 2rem 2rem;
     background: rgba(130, 120, 260, 0.5);
     
     
@@ -62,7 +63,7 @@ body {
 .cardtable {
     
     border: 0px solid black;
-    padding: 10px 0px 12px 10px;
+    padding: 1rem 0px 1.2rem 1rem;
     
 }
 
@@ -70,26 +71,26 @@ body {
 
 .score{
     display: inline-block;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 1rem 0px 1rem;
     margin: auto;
 }
 
 
 .dealercards{
-    height: 110px;
+    height: 11rem;
     display: flex;
     align-items: center;
     border-bottom: 0.5px solid white;
-    padding-bottom: 15px;
-    font-size: 1.4em;
+    padding-bottom: 1.5rem;
+    font-size: 1.7rem;
     
 }
 
 .cards{
-    height: 110px;
+    height: 11rem;
     display: flex;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 1.7rem;
 
 }
 
@@ -97,9 +98,9 @@ body {
 
 .scorecard {
    
-    padding: 30px 0px 30px 10px;
+    padding: 3rem 0px 3rem 1rem;
     text-align: center;
-    height: 46px;
+    height: 4.6rem;
     display: flex;
     align-items: center;
     color: white;
@@ -116,7 +117,7 @@ body {
     margin: 0px 0px 0px 0px;
     display: flex;
     color: white;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
     background-color: rgba(233, 32, 102, 0.2);
     position: relative;
     //transform: translateY(190%);
@@ -126,14 +127,14 @@ body {
 
 .card {
    background-color: rgba(255,255,255, 0.5);
-    width: 75px;
-    height: 95px;
+    width: 7.5rem;
+    height: 9.5rem;
     border: 1px solid black;
     display: inline-block;
     margin: 0px 8px 0px 5px;
     padding: 0px 0px 0px 0px;
     box-shadow: 3px 3px 1px black; 
-    line-height: 95px;
+    line-height: 9.5rem;
 }
 
 
@@ -168,7 +169,7 @@ button {
   color: white;
   margin-top: 1%;
 
-  padding: 15px 32px;
+  padding: 1.5rem 3.2rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
